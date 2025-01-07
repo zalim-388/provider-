@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 
 class CounterModel with ChangeNotifier {
   List<Map<String, String>> _details = [];
-
+  
   List<Map<String, String>> get details => List.unmodifiable(_details);
 
   void remove(Map<String,String> item) {
